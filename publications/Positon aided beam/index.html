@@ -10,16 +10,16 @@
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
   <noscript>
-      <link rel="stylesheet" href="../../assets/css/noscript.css" />
+    <link rel="stylesheet" href="../../assets/css/noscript.css" />
   </noscript>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css" />
   <script src="https://cdn.tailwindcss.com"></script>
   <script>
-      tailwind.config = {
-          corePlugins: {
-              preflight: false,
-          },
-      };
+    tailwind.config = {
+      corePlugins: {
+        preflight: false,
+      },
+    };
   </script>
 </head>
 
@@ -61,8 +61,7 @@
                   white-space: nowrap;
                   width: fit-content;
                   margin: 0px 2ex;
-                ">Arash Bchboodi<span class="super"
-                style="margin-left: 5px; white-space: nowrap"></span></span>
+                ">Arash Bchboodi<span class="super" style="margin-left: 5px; white-space: nowrap"></span></span>
             <span style="
                   font-variant: small-caps;
                   font-size: larger;
@@ -81,18 +80,22 @@
           </div>
           <div class="flex gap-8 justify-center" style="margin-top: 2ex">
             <span class="spanMobile"><span><span class="super" style="margin-right: 5px; font-size: 1"></span>
-                <span> Arizona State University, USA
+                <span> Arizona State University, USA  
                   <br></span></span></span>
-            <span class="spanMobile"><span><span class="super" style="margin-right: 5px; font-size: 1"></span>
+            <span class="spanMobile"><span><span class="super" style="margin-right: 5px; font-size: 1"><sup>2</sup>Qualcomm Technologies Netherlands B.V, The Netherlands</span>
+                <span> </span></span></span>
+                <span class="spanMobile"><span><span class="super" style="margin-right: 5px; font-size: 1"><sup>3</sup>Qualcomm Research, USA</span>
                 <span> </span></span></span>
           </div>
         </div>
+        
 
         <div class="resources_publication">
           <h2>Resources</h2>
           <a class="button_resources" href="https://arxiv.org/pdf/2205.09054"><i
               class="button_icon fa fa-file-pdf"></i><span> Paper (7.5 MB) </span></a><a class="button_resources"
-            href="https://ieeexplore.ieee.org/abstract/document/10278998"><i class="button_icon fa fa-quote-right"></i><span> Cite </span></a>
+            href="https://ieeexplore.ieee.org/abstract/document/10278998"><i
+              class="button_icon fa fa-quote-right"></i><span> Cite </span></a>
         </div>
         <h2 id="Abstract">Abstract</h2>
         <p style="
@@ -112,7 +115,11 @@
           communication system objective. This work aims at closing the gap between reality and simulations in
           position-aided beam alignment.
         </p>
-
+        <h2>Videos</h2>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/qXBLXhLJVLU?si=HSp4ZZCHlNkNMdDS"
+          title="YouTube video player" frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         <h2>image section</h2>
         <div class="lg:columns-3 columns-2 gap-2 overflow-hidden">
           <figure data-fancybox="gallery"
@@ -131,7 +138,7 @@
           <figure data-fancybox="gallery"
             data-caption="Accuracy and beam prediction map comparison for the three considered algorithms, Lookup Table, KNN, and the Neural Network."
             data-src="./gallery/4.jpg">
-            <img  src="./gallery/4.jpg" alt="" class="rounded-md w-full" loading="lazy" />
+            <img src="./gallery/4.jpg" alt="" class="rounded-md w-full" loading="lazy" />
           </figure>
 
 
@@ -141,8 +148,7 @@
             data-src="./gallery/6.jpg">
             <img src="./gallery/6.jpg" alt="" class="rounded-md w-full" loading="lazy" />
           </figure>
-          <figure data-fancybox="gallery"
-            data-caption="Overhead savings as a function of outage probability."
+          <figure data-fancybox="gallery" data-caption="Overhead savings as a function of outage probability."
             data-src="./gallery/27.jpg">
             <img src="./gallery/27.jpg" alt="" class="rounded-md w-full" loading="lazy" />
           </figure>
@@ -155,19 +161,16 @@
           </figure>
 
 
-          <figure data-fancybox="gallery"
-          data-caption="Top-k accuracy comparison between algorithms for Scenario 6"
-          data-src="./gallery/graph.jpg">
-          <img src="./gallery/graph.jpg" alt="" class="rounded-md w-full" loading="lazy" />
-        </figure>
+          <figure data-fancybox="gallery" data-caption="Top-k accuracy comparison between algorithms for Scenario 6"
+            data-src="./gallery/graph.jpg">
+            <img src="./gallery/graph.jpg" alt="" class="rounded-md w-full" loading="lazy" />
+          </figure>
 
 
-        <figure data-fancybox="gallery"
-        data-caption="Centered average beam power footprint: the time average of the
-        received power using 64 different beams"
-        data-src="./gallery/graph2.jpg">
-        <img src="./gallery/graph2.jpg" alt="" class="rounded-md w-full" loading="lazy" />
-      </figure>
+          <figure data-fancybox="gallery" data-caption="Centered average beam power footprint: the time average of the
+        received power using 64 different beams" data-src="./gallery/graph2.jpg">
+            <img src="./gallery/graph2.jpg" alt="" class="rounded-md w-full" loading="lazy" />
+          </figure>
         </div>
 
 
@@ -216,7 +219,7 @@
 
   <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
 
-    <script src="../../assets/js/publication.js"></script>
+  <script src="../../assets/js/publication.js"></script>
 </body>
 
 </html>
